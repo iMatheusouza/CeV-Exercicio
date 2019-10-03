@@ -19,13 +19,20 @@ section {
   border-radius: 5%;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
   padding: 10px 10px;
+  max-width: 100%;
 }
 div {
   margin: 10px 0;
 }
+
+img {
+  align-content: center;
+}
+
 footer {
   color: white;
   margin: 10px 0;
