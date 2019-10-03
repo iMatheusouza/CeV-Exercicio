@@ -26,6 +26,7 @@ function check() {
         
       }
       else if (yourAge < 30) {
+        //JOVEM
         var generateText = document.getElementById('newText')
         generateText.innerText = `Identificamos um homem de ${yourAge} anos` 
         
@@ -36,6 +37,7 @@ function check() {
 
       }
       else if (yourAge < 60) {
+        //ADULTO
         var generateText = document.getElementById('newText')
         generateText.innerText = `Identificamos um homem de ${yourAge} anos` 
 
@@ -45,6 +47,7 @@ function check() {
         document.getElementById('newContent').appendChild(generateImage)
       }
       else {
+        //IDOSO
         var generateText = document.getElementById('newText')
         generateText.innerText = `Identificamos um homem de ${yourAge} anos` 
 
@@ -58,6 +61,7 @@ function check() {
     } 
       else {
         if (yourAge >= 0 && yourAge <= 14) {
+          //CRIANÇA
           var generateText = document.getElementById('newText')
           generateText.innerText = `Identificamos uma mulher de ${yourAge} anos` 
   
@@ -68,6 +72,7 @@ function check() {
         }
 
         else if (yourAge < 30) {
+          //JOVEM
           var generateText = document.getElementById('newText')
           generateText.innerText = `Identificamos uma mulher de ${yourAge} anos` 
   
@@ -78,6 +83,7 @@ function check() {
         }
 
         else if (yourAge < 60) {
+          //ADULTO
           var generateText = document.getElementById('newText')
           generateText.innerText = `Identificamos uma mulher de ${yourAge} anos` 
   
@@ -88,6 +94,7 @@ function check() {
         }
 
         else {
+          //IDOSO
           var generateText = document.getElementById('newText')
           generateText.innerText = `Identificamos uma mulher de ${yourAge} anos` 
   
@@ -102,7 +109,7 @@ function check() {
 
   }
 
-/*removeEventListener vai remover a função de gerar elementos
+/* removeEventListener vai remover a função de gerar elementos
 do botão, fazendo assim não ser possível gerar várias imagens
 e quebrar o site*/
 
@@ -110,6 +117,7 @@ e quebrar o site*/
 
 }
 
+// Recarregará a página para ser possível fazer outro teste
 function refresh () {
   window.location.reload()
 }

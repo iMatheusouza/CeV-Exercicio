@@ -1,21 +1,24 @@
 body {
   margin: 0 0;
-  background-color: rgb(67, 67, 177);
-  font: normal 15pt Arial;
-  color: black;
+  background-image: linear-gradient(rgb(172, 174, 182), rgb(208, 213, 218));
+  background-repeat: no-repeat;
+  font: normal 15pt Roboto;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column; 
+  color: rgb(86, 88, 180);
+  font-weight: 500;
+  
 }
 
 header {
-  color: white;
+
 }
 
 section {
-  background: rgb(204, 197, 197);
+  background: #5DBA73;
   border-radius: 5%;
   display: flex;
   align-items: center;
@@ -25,15 +28,31 @@ section {
   padding: 10px 10px;
   max-width: 100%;
 }
-div {
+section div:last-child {
   margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; 
+}
+input {
+  background: rgba(86, 88, 180, 0.555);
+  border: none;
+  color: white;
+  text-align: center;
+}
+
+button{
+  background: rgba(86, 88, 180, 0.555);
+  border: none;
+  color: white;
 }
 
 img {
-  align-content: center;
+  width: 200px;
+  height: 200px;
 }
 
 footer {
-  color: white;
   margin: 10px 0;
 }
